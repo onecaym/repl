@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require './lib/start'
+
+input = [(print '> '), gets.rstrip][1]
+repl = Repl.new(input)
+repl.start

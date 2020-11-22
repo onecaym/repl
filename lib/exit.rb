@@ -1,5 +1,5 @@
 class Exit
   def call
-  	exit
+    exit
   end
 end
