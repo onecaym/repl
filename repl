@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require './lib/input_sender'
+
+user_command = Input_sender.new
+user_command.start

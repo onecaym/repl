@@ -1,6 +1,8 @@
-require './lib/about'
-require './lib/help'
-require './lib/exit'
+lib = File.expand_path("../", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'about'
+require 'help'
+require 'exit'
 
 class Repl
   def initialize(user_command)
