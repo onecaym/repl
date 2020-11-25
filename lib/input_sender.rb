@@ -1,11 +1,9 @@
 require './lib/start'
 
-class Input_sender
+class InputSender
 	def start
 		input = (print '> '), gets
 		process_request(input)
-		# repl = Repl.new(input)
-		# repl.start
 	end
 
 	def process_request(request)

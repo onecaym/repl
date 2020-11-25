@@ -1,5 +1,5 @@
-lib = File.expand_path("../", __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+# lib = File.expand_path(__dir__, __FILE__)
+# $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'about'
 require 'help'
 require 'exit'
