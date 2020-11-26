@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+lib = File.expand_path(__dir__, __FILE__)
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), 'lib'))
+# $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+
+require 'input_sender'
+
+app = InputSender.new
+app.start
